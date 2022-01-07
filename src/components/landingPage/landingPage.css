@@ -1,0 +1,12 @@
+.landing-page{
+    margin: 20px;
+    background-color: #fffcee;
+}
+
+.landing-page-bg{
+    height: 570px;
+}
+.landing-page-bg>img{
+    width: 100%;
+    height: 100%;
+}
