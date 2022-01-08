@@ -119,6 +119,7 @@
     border-radius: 20px;
     background-image: url("../assets/joinImg.png");
     background-size: cover;
+    text-align: center;
 }
 
 .join-room-header{
