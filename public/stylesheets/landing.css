@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.landing-page{
+    padding: 20px;
+    background-color: #fffcee;
+    background-image: url("../assets/landingImg.png");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.landing-page-left .landing-page-left-header{
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #0b1e3f;
+    margin-top: 150px;
+    text-align: left;
+}
+.landing-page-left .landing-page-left-description{
+    margin-top: 30px;
+    color: #716460;
+    font-weight: 450;
+    font-size: larger;
+    text-align: left;
+}
+.landing-page-left .landing-page-left-button{
+    text-align: left;
+}
+.landing-page-left .landing-page-left-button>button{
+    margin-top: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    background-color: #ff7063;
+    width: 150px;
+    border-radius: 5px;
+    color: #fffcee;
+    text-align: center;
+    font-size: 20px;
+    border-style: hidden;
+    cursor: pointer;
+    padding: 10px;
+}
 .create-join-room{
     margin: 0px;
     background-color: #fffcee;
@@ -33,8 +78,9 @@
     max-width: 400px;
     min-width: 400px;
     border-radius: 20px;
-    background-image: url("../../images/createImg.png");
+    background-image: url("../assets/createImg.png");
     background-size: cover;
+    text-align: center;
 }
 
 .create-room-header{
@@ -71,7 +117,7 @@
     max-width: 400px;
     min-width: 400px;
     border-radius: 20px;
-    background-image: url("../../images/joinImg.png");
+    background-image: url("../assets/joinImg.png");
     background-size: cover;
 }
 
