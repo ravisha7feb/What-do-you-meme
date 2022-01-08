@@ -1,9 +1,12 @@
 .landing-page{
-    margin: 0px;
-    padding: 30px;
+    padding: 20px;
     background-color: #fffcee;
     background-image: url("../../images/landingImg.png");
     background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
 .landing-page-left .landing-page-left-header{

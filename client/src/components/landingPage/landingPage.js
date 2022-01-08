@@ -1,6 +1,7 @@
 import React from "react"
 import "./landingPage.css"
 //import bgImg from "../../images/landingImg.png"
+import roomCreate from "../createJoinRoom/createJoinRoom"
 
 class LandingPage extends React.Component {
     render (){
@@ -17,10 +18,6 @@ class LandingPage extends React.Component {
                         <button>GET STARTED</button> 
                     </div>
                 </div>
-                {/* <div className="landing-page-bg">
-                    <img src={bgImg} alt="bg"></img>
-                </div>
-                 */}
             </div>
         );
     }
