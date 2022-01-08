@@ -1,0 +1,101 @@
+.create-join-room{
+    margin: 0px;
+    background-color: #fffcee;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.create-join-room-header{
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+    color: #0b1e3f;
+    text-align: center;
+}
+
+.create-join-room-options{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.create-room{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    min-height: 350px;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 20px;
+    background-image: url("../../images/createImg.png");
+    background-size: cover;
+}
+
+.create-room-header{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.create-room-button{
+    text-align: center;
+}
+
+.create-room-button>button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #ffd765;
+    color: #ff7063;
+    text-align: center;
+    font-size: larger;
+    border-style: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.join-room{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    min-height: 350px;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 20px;
+    background-image: url("../../images/joinImg.png");
+    background-size: cover;
+}
+
+.join-room-header{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.join-room-button{
+    text-align: center;
+}
+
+.join-room-button>button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #0fdc99;
+    color: #3e8769;
+    text-align: center;
+    font-size: larger;
+    border-style: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+}
