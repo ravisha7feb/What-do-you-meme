@@ -1,0 +1,8 @@
+.game-panel{
+    display: flex;
+    justify-content: space-evenly;
+}
+.action-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
