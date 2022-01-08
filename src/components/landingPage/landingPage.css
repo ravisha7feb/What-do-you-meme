@@ -2,19 +2,21 @@
     margin: 0px;
     padding: 30px;
     background-color: #fffcee;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; */
+    background-image: url("../../images/landingImg.png");
+    background-size: cover ;
 }
 
-.landing-page-bg{
+/* .landing-page-bg{
     height: 560px;
     
 }
 .landing-page-bg>img{
     width: 100%;
     height: 100%;
-}
+} */
 
 .landing-page-left .landing-page-left-header{
     font-family: 'Fredoka One', cursive;
@@ -43,7 +45,8 @@
     border-radius: 5px;
     color: #fffcee;
     text-align: center;
-    font-size: larger;
+    font-size: 20px;
     border-style: hidden;
     cursor: pointer;
+    padding: 10px;
 }
