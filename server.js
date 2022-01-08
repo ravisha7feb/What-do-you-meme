@@ -7,7 +7,8 @@ const express      = require('express'),
 
 const scenarios    = require('./routes/api/scenarios'),
       memes        = require('./routes/api/memes'),
-      indexRoutes  = require('./routes/index');
+      indexRoutes  = require('./routes/index'),
+      room         = require('./routes/room');
 
 // const path = require('path');
 // const http = require('http');
@@ -28,6 +29,7 @@ mongoose
 // seedDB();
 
 app.use(indexRoutes);
+app.use('/room', room);
 app.use('/api/scenarios', scenarios);
 app.use('/api/memes', memes);
 
