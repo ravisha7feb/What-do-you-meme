@@ -1,8 +1,39 @@
 .game-panel{
+    margin: 10px;
     display: flex;
     justify-content: space-evenly;
 }
+.game-panel .leaderboard{
+    width: 200px;
+    height: 500px;
+    border-style: solid;
+    border-width: thin;
+}
+.game-panel .response-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.game-panel .response-area .scenario{
+    width: 800px;
+    height: 200px;
+    border-style: solid;
+    border-width: thin;
+}
+.game-panel .response-area .memes{
+    width: 800px;
+    height: 200px;
+    border-style: solid;
+    border-width: thin;
+}
+
 .action-buttons{
     display: flex;
     justify-content: space-evenly;
+}
+.action-buttons .submit-button>button,.action-buttons .quit-button>button{
+    width: 90px;
+    height: 30px;
+    border-style: solid;
+    border-width: thin;
 }
