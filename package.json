@@ -19,5 +19,6 @@
     "express": "^4.17.2",
     "mongoose": "^6.1.5",
     "mongoose-simple-random": "^0.4.1"
+    "react-router-dom": "^6.2.1"
   }
 }
