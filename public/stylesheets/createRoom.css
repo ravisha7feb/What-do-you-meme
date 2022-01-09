@@ -43,8 +43,12 @@
     border-radius: 5px;
     width: 150px;
     background-color: #0fdc99;
-    color: rgb(245, 24, 98);
+    color: rgb(138, 5, 49);
     border-style: hidden;
     font-family: cursive;
     font-size: large;
+}
+.room-code .copy-code>button:active{
+    background-color: green;
+    color: ivory;
 }

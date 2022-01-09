@@ -16,9 +16,13 @@
         $("body").append($temp);
         $temp.val($(element).text()).select();
         document.execCommand("copy");
+        copyMessage();
         $temp.remove();
     }
-
+    function copyMessage(){
+        document.getElementById("#btn").innerHTML = "Copied!";
+    }
+    
     </script>
     <link rel="stylesheet" href="/stylesheets/createRoom.css">
     
@@ -37,9 +41,10 @@
             <p id="room_code">Room Code ABC</p>
         
             <div class="copy-code">
-                <button onclick="copyToClipboard('#room_code')">Copy Room Code</button>
+                <button id="btn" onclick="copyToClipboard('#room_code')" >Copy Room Code</button>
             </div>
-        
+            <!-- copyToClipboard('#room_code') -->
+            <!-- document.getElementById("room_code").innerHTML = "Copied!" -->
         </div>
 
     </div>
