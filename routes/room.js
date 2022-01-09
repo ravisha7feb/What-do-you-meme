@@ -6,7 +6,9 @@ const express    = require('express'),
 let users = require('../users');
 
 // ROOM ROUTES
-
+router.get('/joinRoom', (req, res) => {
+    res.render('room/joinRoom');
+});
 router.get('/:id/settings', (req, res) => {
     const id = req.params.id;
     res.render('room/settings', {id: id});
