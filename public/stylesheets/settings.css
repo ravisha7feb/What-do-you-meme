@@ -21,7 +21,7 @@
     margin-left: 80px;
 }
 
-input[type=text] {
+.settings-input[type=text] {
     width: fit-content;
     padding: 12px 10px;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ input[type=text] {
     word-break: break-word;
 }
 
-input[type=submit] {
+.settings-submit[type=submit] {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
     padding: 10px;

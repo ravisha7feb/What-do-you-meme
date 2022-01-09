@@ -14,7 +14,6 @@
     align-content: center;
 }
 .scenario{
-    text-align: center;
     height: 150px;
     width: 1000px;
     background-color: #fcf2c9;
@@ -26,12 +25,12 @@
     padding-right: 100px;
 }
 .scenario-text-input{
-    text-align: center;
     width: 800px;
     height: fit-content;
     border-style: hidden;
     background-color: #fcf2c9;
     align-self: center;
+    font-weight: 800;
 }
 .scenario-header{
     text-align: center;
@@ -59,7 +58,6 @@
     height: 150px;
     width: 150px;
     border-radius: 10px;
-    padding-top: 20px;
 }
 .checkbox{
     height: 20px;

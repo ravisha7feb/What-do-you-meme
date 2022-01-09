@@ -10,12 +10,18 @@
   height: 100vh;
   padding: 20px;
 }
-
+.top-memes{
+  display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: space-between;
+    padding: 75px;
+}
 .top-img {
   height: 150px;
   width: 150px;
   border-radius: 10px;
-  padding-top: 0px;
+  margin-left: 20px;
 }
 
 .top-header {

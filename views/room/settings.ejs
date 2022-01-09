@@ -5,9 +5,9 @@
 <form action="/room/<%= id %>" method="POST">
     <input type="text" placeholder="username" name="username">
     <% if (users.length == 0) { %>
-        <input type="text" placeholder="rounds" name="rounds">
+        <input class="settings-input" type="text" placeholder="rounds" name="rounds">
     <% } %>
-    <br><input type="submit">
+    <br><input class="settings-submit" type="submit">
 </form>
 </div>
 <%- include('../partials/footer') -%>
