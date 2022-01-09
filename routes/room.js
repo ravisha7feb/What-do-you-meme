@@ -1,9 +1,14 @@
 const express    = require('express'),
       router     = express.Router();
 
-// INDEX ROUTES
+// ROOM ROUTES
 router.get('/:id', (req, res) => {
-    res.send('hello this is the rooms page')
+    const id = req.params.id;
+    res.render('room/settings', {id: id});
+});
+
+router.get('/:id/play', (req, res) => {
+    res.render('room/play');
 });
 
 module.exports = router;
