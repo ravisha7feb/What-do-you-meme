@@ -1,3 +1,12 @@
+.help{
+    background-color: #fffcee;
+    align-self: flex-end;
+}
+
+.collapse{
+    align-self: center;
+}
+
 .create-join-room{
     margin: 0px;
     background-color: #fffcee;
