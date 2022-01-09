@@ -1,24 +1,44 @@
 <%- include('../partials/header') -%>
 
-<h1>This is the game page</h1>
-
-<h3>Share this with your friends</h3>
 <p> <%= id %></p>
 
 <% let rounds = users[0].rounds %>
 
 <% let s = scene[0].scene %>
 
-<div id="memes">
-    <form action="/room/<%= id %>/topmemes" method="POST">
-        <input type="text" name="scene" value="<%= s %>">
-        <% memes.forEach(m => { %>
-            <input type="checkbox" id="memeImg" name="memeImg" value="<%=m.image%>">
-            <label for="memeImg"> <img id="memeImg" src="<%=m.image%>" alt="meme"> </label><br>
-        <% }); %> 
+<div id="memes" class="game-screen">
+    <div class="header"> <!--flex-->
+        <div class="game-logo">
+            What do you meme?
+        </div>
+        <div class="quit-button">
+            <button>Quit Game</button>
+        </div>
+    </div>
+        <form class="response-area" action="/room/<%= id %>/topmemes" method="POST">
+            <div class="scenario">
+                <div class="scenario-header">
+                    SCENARIO
+                </div>
+                <input class="scenario-text-input" type="text" name="scene" value="<%= s %>">
+            </div>
 
-        <input type="submit" value="Submit">
-    </form>
+            <div class="memes">
+                <div class="memes-header">
+                    MEMES
+                </div>
+                <div class="memes-memes">
+                    <% memes.forEach(m => { %>
+                        <div class="meme-checkbox-set">
+                            <label for="memeImg"> <img class="meme-img" id="memeImg" src="<%=m.image%>" alt="meme"> </label><br>
+                            <input class="checkbox" type="checkbox" id="memeImg" name="memeImg" value="<%=m.image%>">
+                        </div>
+                    <% }); %> 
+                </div>
+            </div>
+
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
 </div>
 
 

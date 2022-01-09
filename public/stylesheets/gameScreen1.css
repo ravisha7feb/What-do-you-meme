@@ -1,54 +1,68 @@
 .game-screen{
+    width: 100%;
     background-color: #fffcee;
     padding: 30px;
 }
 
-.game-panel{
-    margin: 10px;
+.response-area{
     display: flex;
-    justify-content: flex-start;
-    padding-left: 40px;
-}
-.game-panel .leaderboard{
-    width: 200px;
-    background-color: white;
-    border-style: hidden;
-    text-align: center;
-    font-family: 'Fredoka One', cursive;
-    border-radius: 20px;
-    font-size: 20px;
-}
-.game-panel .response-area{
-    display: flex;
+    height: 600px;
     flex-direction: column;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
-    height: 500px;
-    padding-left: 250px;
+    align-content: center;
 }
-.game-panel .response-area .scenario{
-    width: 800px;
+.scenario{
     height: 150px;
-    background-color: #ffd765;
+    width: 1000px;
+    background-color: #fcf2c9;
     border-radius: 20px;
-    text-align: center;
-    color: black;
-    font-family: 'Fredoka One', cursive;
-    font-size: 20px;
     border-style: hidden;
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
-.game-panel .response-area .memes{
+.scenario-text-input{
     width: 800px;
-    height: 250px;
-    background-color: white;
+    height: fit-content;
+    border-style: hidden;
+    background-color: #fcf2c9;
+    align-self: center;
+}
+.scenario-header{
+    text-align: center;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.memes{
+    width: 1000px;
+    height: 320px;
+    background-color: #fcf2c9;
     border-radius: 20px;
     text-align: center;
     color: black;
     font-family: 'Fredoka One', cursive;
     font-size: 20px;
     border-style: hidden;
+    align-items: center;
+    padding-top: 20px;
+    align-items: center;
 }
-
+.meme-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
 .header{
     display: flex;
     flex-direction: row;
@@ -66,7 +80,20 @@
     color: #0b1e3f;
     text-align: left;
 }
-
+.memes-memes{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: space-between;
+    padding-left: 75px;
+}
+.meme-checkbox-set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
 .quit-button>button{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
@@ -82,7 +109,7 @@
     align-self: flex-end;
 }
 
-.submit-button>button{
+.submit-button{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
     padding: 10px;
