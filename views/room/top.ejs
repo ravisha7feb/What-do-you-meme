@@ -1,20 +1,22 @@
 <%- include('../partials/header') -%>
 
-<h1>Top memes will go here</h1>
+<div class=top-page>
+<div class=top-header>Relatable Memes for the Scenario</div>
 
 <p><%= topMemes[0].sc %></p>
 
 <% topMemes.forEach(m => { %>
-    <img id="memeImg" src="<%=m.img%>" alt="meme">
+    <img class="top-img" id="memeImg" src="<%=m.img%>" alt="meme">
 <% }); %>
 
 <!-- <a href="/room/<%=id%>/play"> Play Again</a> -->
 
 <form action="/room/<%=id%>/playAgain" method="GET">
-    <button id="playAgain">Play Again</button>
+    <button id="playAgain">Next Round</button>
 </form>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="/js/main.js"></script>
+</div>
 </body>
 </html>

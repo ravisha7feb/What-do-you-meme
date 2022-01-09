@@ -22,14 +22,13 @@
 }
 
 input[type=text] {
-    /*width: 50%;*/
+    width: fit-content;
     padding: 12px 10px;
     box-sizing: border-box;
     margin-left: 100px;
     word-wrap: break-word;
     flex-wrap: wrap;
     word-break: break-word;
-    height: 80 px;
 }
 
 input[type=submit] {
