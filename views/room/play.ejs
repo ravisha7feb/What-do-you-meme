@@ -1,1 +1,28 @@
+<%- include('../partials/header') -%>
+
 <h1>This is the game page</h1>
+
+<h3>Share this with your friends</h3>
+<p> <%= id %></p>
+
+<% let rounds = users[0].rounds %>
+
+<% let s = scene[0].scene %>
+
+<div id="memes">
+    <form action="/room/<%= id %>/topmemes" method="POST">
+        <input type="text" name="scene" value="<%= s %>">
+        <% memes.forEach(m => { %>
+            <input type="checkbox" id="memeImg" name="memeImg" value="<%=m.image%>">
+            <label for="memeImg"> <img id="memeImg" src="<%=m.image%>" alt="meme"> </label><br>
+        <% }); %> 
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
