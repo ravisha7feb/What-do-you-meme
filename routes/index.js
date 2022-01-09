@@ -13,4 +13,9 @@ router.get('/choices', (req, res) => {
     res.render('choices', {id: roomID});
 });
 
+router.get('/gameScreen1', (req, res) => {
+    res.render('gameScreen1');
+});
+
+
 module.exports = router;
