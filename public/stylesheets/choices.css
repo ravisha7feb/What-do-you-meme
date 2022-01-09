@@ -1,3 +1,28 @@
+.help{
+    background-color: #fffcee;
+    align-self: flex-end;
+}
+.btn-primary{
+    font-size: large;
+}
+.btn-primary:hover {
+    color: #fff;
+    font-weight: bolder;
+    background-color: #14d414;
+    border-color: #2e6da4;
+}
+.collapse{
+    background-color: darkturquoise;
+    color: black;
+    align-self: center;
+    border-style: dotted;
+    border-width:thick;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.card-body-header{
+    text-align: center;
+}
 .create-join-room{
     margin: 0px;
     background-color: #fffcee;
@@ -47,9 +72,11 @@
 
 .create-room-button{
     text-align: center;
+    margin-top: 20px;
 }
 
-.create-room-button>button{
+.create-room-button>a{
+    text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
     padding: 10px;
@@ -86,16 +113,18 @@
 
 .join-room-button{
     text-align: center;
+    margin-top: 20px;
 }
 
-.join-room-button>button{
+.join-room-button>a{
+    text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
     padding: 10px;
     background-color: #0fdc99;
-    color: #3e8769;
+    color: white;
     text-align: center;
-    font-size: larger;
+    font-size: large;
     border-style: hidden;
     cursor: pointer;
     border-radius: 5px;
