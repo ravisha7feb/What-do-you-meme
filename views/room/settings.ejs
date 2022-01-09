@@ -1,12 +1,13 @@
+<%- include('../partials/header') -%>
+
 <h1>Settings page</h1>
 
-<h3>Share this id with your friends</h3>
-<p><%= id %></p>
+<form action="/room/<%= id %>" method="POST">
+    <input type="text" placeholder="username" name="username">
+    <% if (users.length == 0) { %>
+        <input type="text" placeholder="rounds" name="rounds">
+    <% } %>
+    <input type="submit">
+</form>
 
-<h3>Player Username</h3>
-<h3>Player Username</h3>
-<h3>Player Username</h3>
-<h3>Player Username</h3>
-<h3>Player Username</h3>
-
-<a href="/room/<%= id %>/play">Start the game</a>
+<%- include('../partials/footer') -%>
