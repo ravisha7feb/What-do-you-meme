@@ -1,39 +1,98 @@
+.game-screen{
+    background-color: #fffcee;
+    padding: 30px;
+}
+
 .game-panel{
     margin: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding-left: 40px;
 }
 .game-panel .leaderboard{
     width: 200px;
-    height: 500px;
-    border-style: solid;
-    border-width: thin;
+    background-color: white;
+    border-style: hidden;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 20px;
+    font-size: 20px;
 }
 .game-panel .response-area{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    padding-left: 250px;
 }
 .game-panel .response-area .scenario{
     width: 800px;
-    height: 200px;
-    border-style: solid;
-    border-width: thin;
+    height: 150px;
+    background-color: #ffd765;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    border-style: hidden;
 }
 .game-panel .response-area .memes{
     width: 800px;
-    height: 200px;
-    border-style: solid;
-    border-width: thin;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    border-style: hidden;
 }
 
-.action-buttons{
+.header{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    padding-bottom: 20px;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
 }
-.action-buttons .submit-button>button,.action-buttons .quit-button>button{
-    width: 90px;
-    height: 30px;
-    border-style: solid;
-    border-width: thin;
+
+.game-logo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 40px;
+    color: #0b1e3f;
+    text-align: left;
+}
+
+.quit-button>button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #ff7063;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border-style: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 130px;
+    align-self: flex-end;
+}
+
+.submit-button>button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #3e8769;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border-style: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    align-self: center;
 }
