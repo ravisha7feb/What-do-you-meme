@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+.help{
+    background-color: #fffcee;
+    align-self: flex-end;
+}
+
+.collapse{
+    align-self: center;
+}
+
 .landing-page{
     padding: 20px;
     background-color: #fffcee;
