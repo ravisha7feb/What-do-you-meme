@@ -1,10 +1,37 @@
+.page{
+    background:#0b1e3f;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.create-room-page{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ff7063;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-style: outset;
+    border-width: thick;
+    border-radius: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.player-usernames{
+    font-family: monospace;
+}
 .start-game>a{
     text-decoration: none;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
     padding: 10px;
     background-color: #0fdc99;
-    color: #d9ebe3;
+    color: white;
     text-align: center;
     font-size: large;
     border-style: hidden;
