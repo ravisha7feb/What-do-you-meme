@@ -1,5 +1,6 @@
 const express    = require('express'),
-      router     = express.Router();
+      router     = express.Router()
+      uuid       = require('uuid');
 
 
 // INDEX ROUTES
@@ -8,7 +9,8 @@ router.get('/', (req, res) => {
 });
 
 router.get('/choices', (req, res) => {
-    res.render('choices');
+    let roomID = uuid.v4();
+    res.render('choices', {id: roomID});
 });
 
 module.exports = router;
