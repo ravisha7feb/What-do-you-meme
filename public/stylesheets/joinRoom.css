@@ -29,7 +29,7 @@ input[type=text] {
     word-break: break-word;
 }
 
-input[type=submit] {
+button {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
     padding: 10px;
@@ -40,7 +40,7 @@ input[type=submit] {
     border-style: hidden;
     cursor: pointer;
     border-radius: 5px;
-    width: 100px;
+    width: 200px;
     align-self: center;
     margin-left: 100px;
     margin-top: 30px;
