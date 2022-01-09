@@ -2,11 +2,27 @@
     background-color: #fffcee;
     align-self: flex-end;
 }
-
-.collapse{
-    align-self: center;
+.btn-primary{
+    font-size: large;
 }
-
+.btn-primary:hover {
+    color: #fff;
+    font-weight: bolder;
+    background-color: #14d414;
+    border-color: #2e6da4;
+}
+.collapse{
+    background-color: darkturquoise;
+    color: black;
+    align-self: center;
+    border-style: dotted;
+    border-width:thick;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.card-body-header{
+    text-align: center;
+}
 .create-join-room{
     margin: 0px;
     background-color: #fffcee;
