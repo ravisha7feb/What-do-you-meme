@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
 .top-page {
-  margin: 0px;
   display: flex;
   flex-direction: column;
   background-color: #fffcee;
@@ -14,14 +13,16 @@
   display: flex;
     flex-direction: row;
     align-items: stretch;
-    align-content: space-between;
-    padding: 75px;
+    align-content: space-around;
+    margin-left: 80px;
+    padding: 10px;
 }
+
 .top-img {
   height: 150px;
   width: 150px;
   border-radius: 10px;
-  margin-left: 20px;
+  margin: 10px;
 }
 
 .top-header {
@@ -32,4 +33,21 @@
   color: #0b1e3f;
   text-align: left;
   margin-left: 80px;
+}
+
+.next-button{
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #3e8769;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border-style: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    width: fit-content;
+    align-self: center;
+    margin-left: 100px;
+    margin-top: 20px;
 }

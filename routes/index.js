@@ -21,6 +21,4 @@ router.get('/createRoom', (req, res) => {
     res.render('createRoom');
 });
 
-
-
 module.exports = router;

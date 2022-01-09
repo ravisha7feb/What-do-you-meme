@@ -21,14 +21,24 @@
     margin-left: 80px;
 }
 
+.settings-text{
+    margin-left: 100px;
+    font-size: large;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .settings-input[type=text] {
     width: fit-content;
-    padding: 12px 10px;
+    padding: 10px;
     box-sizing: border-box;
     margin-left: 100px;
     word-wrap: break-word;
     flex-wrap: wrap;
     word-break: break-word;
+    height: fit-content;
 }
 
 .settings-submit[type=submit] {

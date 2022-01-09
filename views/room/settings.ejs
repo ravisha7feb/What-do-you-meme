@@ -3,8 +3,10 @@
 <div class="settings-header">Game Settings</div>
 
 <form action="/room/<%= id %>" method="POST">
-    <input type="text" placeholder="username" name="username">
+    <div class="settings-text">Enter your username for the room: </div>
+    <input type="text" class="settings-input" placeholder="username" name="username"> <br>
     <% if (users.length == 0) { %>
+        <div class="settings-text">Enter the number of rounds: </div>
         <input class="settings-input" type="text" placeholder="rounds" name="rounds">
     <% } %>
     <br><input class="settings-submit" type="submit">
