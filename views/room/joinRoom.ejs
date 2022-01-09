@@ -20,11 +20,21 @@
 
     <div class="take-input">
         Room code
-        <input type="text" placeholder="Paste the room code here">
+        <input type="text" placeholder="Paste the room code here" id="key">
         <br>
-        <input type="submit">
+        <button id="joinRoom">Join Room</button>
     </div>
 
 </div>
 
-<%- include('../partials/footer') -%>
+<script>
+    document.getElementById('joinRoom').addEventListener('click', ()=> {
+        console.log(document.getElementById('key').value);
+        let id = document.getElementById('key').value;
+        location.replace(`/room/${id}/settings`);
+    });
+
+</script>
+
+</body>
+</html>
