@@ -17,5 +17,9 @@ router.get('/gameScreen1', (req, res) => {
     res.render('gameScreen1');
 });
 
+router.get('/createRoom', (req, res) => {
+    res.render('createRoom');
+});
+
 
 module.exports = router;
