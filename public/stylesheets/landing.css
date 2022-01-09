@@ -16,12 +16,14 @@
     font-size: 60px;
     font-weight: bolder;
     color: #0b1e3f;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-left: 80px;
     text-align: left;
 }
 .landing-page-left .landing-page-left-description{
-    margin-top: 30px;
-    color: #716460;
+    margin-top: 10px;
+    margin-left: 80px;
+    color: #3d3937;
     font-weight: 450;
     font-size: larger;
     text-align: left;
@@ -29,6 +31,7 @@
 .landing-page-left .landing-page-left-button{
     text-align: left;
     padding-top: 30px;
+    margin-left: 80px;
 }
 .landing-page-left .landing-page-left-button>a{
     text-decoration: none;

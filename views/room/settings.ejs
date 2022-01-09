@@ -1,13 +1,13 @@
 <%- include('../partials/header') -%>
-
-<h1>Settings page</h1>
+<div class="settings-page">
+<div class="settings-header">Game Settings</div>
 
 <form action="/room/<%= id %>" method="POST">
     <input type="text" placeholder="username" name="username">
     <% if (users.length == 0) { %>
         <input type="text" placeholder="rounds" name="rounds">
     <% } %>
-    <input type="submit">
+    <br><input type="submit">
 </form>
-
+</div>
 <%- include('../partials/footer') -%>
