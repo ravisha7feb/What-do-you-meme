@@ -19,7 +19,7 @@ In the middle of the pandemic, we had our own share of low-times and bore-times.
 4. Socket.io
 
 ## Project Link
-https://dry-sierra-52917.herokuapp.com/
+https://wdy-meme.herokuapp.com/
 
 ## Contact
 In case of any suggestions or enquires, feel free to reach out to the contributors.
